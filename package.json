@@ -1,7 +1,7 @@
 {
-  "name": "advanced-angularjs",
+  "name": "eg-example",
   "version": "0.2.0",
-  "description": "jquery, twitter, angularjs; template; +server(express);",
+  "description": "client-centric, spa-oriented, html5, css3, js, jquery, twitter bootstrap, angularjs; template; +server(express);",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
