@@ -1,5 +1,5 @@
 {
-  "name": "jta-template",
+  "name": "advanced-angularjs",
   "version": "0.2.0",
   "description": "jquery, twitter, angularjs; template; +server(express);",
   "main": "index.js",
