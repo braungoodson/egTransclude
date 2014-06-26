@@ -1,7 +1,7 @@
-jta-template
+eg-example
 ======
 
-jquery, twitter, and angularjs template. with express server.
+client-centric, spa-oriented, html5, css3, js, jquery, twitter bootstrap, angularjs; template; +server(express);
 
 usage
 ======
