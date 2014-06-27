@@ -36,3 +36,7 @@ div.eg-built-with > img {
 .bs-docs-header h1, .bs-docs-header p {
 	margin-right: 0px;
 }
+
+i.glyphicon.glyphicon-tint.eg-glyphicon-large {
+	font-size: 100px;
+}

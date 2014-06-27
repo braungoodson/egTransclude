@@ -27,16 +27,27 @@
 		</div>
 		<div class="highlight">
 			<pre><code>&lt;div eg-simple-transclusion>
-	&lt;div class="media">
-		&lt;a class="pull-left" href="#">
-			&lt;img ... />
-		&lt;/a>
-		&lt;div class="media-body">
-			&lt;h4 class="media-heading">...</h4>
-			...
-		&lt;/div>
-	&lt;/div>
-&lt;/div></code></pre>
+  &lt;div class="media">
+    &lt;a class="pull-left" href="#">
+      &lt;img ... />
+    &lt;/a>
+    &lt;div class="media-body">
+      &lt;h4 class="media-heading">...&lt;/h4>
+      ...
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+function SimpleTransclusion () {
+  return {
+    restrict: 'A',
+    transclude: true,
+    template: '&lt;div class="panel panel-default">' +
+                '&lt;div class="panel-heading">&lt;h3 class="panel-title">Panel title&lt;/h3>&lt;/div>' +
+                '&lt;div class="panel-body">&lt;div ng-transclude>&lt;/div>&lt;/div>' +
+              '&lt;/div>'
+  };
+}</code></pre>
 		</div>
 	</div>
 </div>
