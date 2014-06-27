@@ -40,3 +40,7 @@ div.eg-built-with > img {
 i.glyphicon.glyphicon-tint.eg-glyphicon-large {
 	font-size: 100px;
 }
+
+body {
+	color: #666;
+}
