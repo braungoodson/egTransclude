@@ -1,5 +1,5 @@
 {
-  "name": "eg-example",
+  "name": "ngstack",
   "version": "0.2.0",
   "description": "client-centric, spa-oriented, html5, css3, js, jquery, twitter bootstrap, angularjs; template; +server(express);",
   "main": "index.js",
