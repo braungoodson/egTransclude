@@ -44,3 +44,7 @@ i.glyphicon.glyphicon-tint.eg-glyphicon-large {
 body {
 	color: #666;
 }
+
+.container-signin {
+	background-color:#eee;
+}
