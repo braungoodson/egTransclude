@@ -48,3 +48,27 @@ body {
 .container-signin {
 	background-color:#eee;
 }
+
+// EGCLOCK
+
+.clock {
+	/* width: 50%; */
+
+}
+
+.tick {
+  -webkit-animation-duration: .2s;
+  -webkit-animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+  	opacity:0;
+  }
+
+  to {
+    opacity:1;
+  }
+}
+
+// EGLCOCK
