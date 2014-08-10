@@ -1,6 +1,6 @@
 {
-  "name": "ngstack",
-  "version": "0.2.0",
+  "name": "egTransclude",
+  "version": "0.3.0",
   "license": "MIT",
   "private": true,
   "ignore": [

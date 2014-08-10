@@ -1,4 +1,4 @@
-ng-slick
+egTransclude
 ======
 
 client-centric, spa-oriented, html5, css3, js, jquery, twitter bootstrap, angularjs

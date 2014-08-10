@@ -1,6 +1,6 @@
 {
-  "name": "ngstack",
-  "version": "0.2.0",
+  "name": "egTransclude",
+  "version": "0.3.0",
   "description": "client-centric, spa-oriented, html5, css3, js, jquery, twitter bootstrap, angularjs; template; +server(express);",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "author": "Braun Goodson <braungoodson@gmail.com>",
-  "repository": "https://github.com/braungoodson/jta-template",
+  "repository": "https://github.com/braungoodson/egTransclude",
   "license": "MIT",
   "dependencies": {
     "bower": "~1.2.8",
