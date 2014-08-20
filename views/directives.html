@@ -8,7 +8,7 @@
 	<div class="bs-docs-section">
 		<h1 id="panels" class="page-header">Transclusion</h1>
 		<p class="lead">
-			In this example, we transclude a media object from a directive, by wrapping it in a panel.
+			In this example, we transclude a bootstrap media object with an angular directive, by wrapping the object in a bootstrap panel.
 		</p>
 		<h3>Simple Transclude</h3>
 		<p>With <code>ng-simple-transclude</code>, a <code>.media-object</code> is wrapped in a <code>.panel.panel-basic</code>.</p>
@@ -43,7 +43,8 @@ function SimpleTransclusion () {
     restrict: 'A',
     transclude: true,
     template: '&lt;div class="panel panel-default">' +
-                '&lt;div class="panel-heading">&lt;h3 class="panel-title">Panel title&lt;/h3>&lt;/div>' +
+                '&lt;div class="panel-heading">' + 
+                	&lt;h3 class="panel-title">Panel title&lt;/h3>&lt;/div>' +
                 '&lt;div class="panel-body">&lt;div ng-transclude>&lt;/div>&lt;/div>' +
               '&lt;/div>'
   };
