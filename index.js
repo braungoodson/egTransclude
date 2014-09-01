@@ -41,7 +41,7 @@ function Navigator ($location) {
 	};
 }
 
-var app = angular.module('app',['ngRoute','egClock']);
+var app = angular.module('app',['ngRoute','egClock','ui.ace','ui.bootstrap']);
 
 app.config(['$routeProvider',eg.Router]);
 
