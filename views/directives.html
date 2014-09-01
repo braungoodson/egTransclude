@@ -26,7 +26,8 @@
 			</div>
 		</div>
 		<div class="highlight">
-			<pre><code>&lt;div eg-simple-transclusion>
+      <div ui-ace="{mode:'html'}">&lt;!-- HTML -->
+&lt;div eg-simple-transclusion>
   &lt;div class="media">
     &lt;a class="pull-left" href="#">
       &lt;img ... />
@@ -36,19 +37,18 @@
       ...
     &lt;/div>
   &lt;/div>
-&lt;/div>
-
+&lt;/div></div><div ui-ace="{mode:'javascript'}">// Javascript
 function SimpleTransclusion () {
   return {
     restrict: 'A',
     transclude: true,
     template: '&lt;div class="panel panel-default">' +
                 '&lt;div class="panel-heading">' + 
-                	&lt;h3 class="panel-title">Panel title&lt;/h3>&lt;/div>' +
+                	'&lt;h3 class="panel-title">Panel title&lt;/h3>&lt;/div>' +
                 '&lt;div class="panel-body">&lt;div ng-transclude>&lt;/div>&lt;/div>' +
               '&lt;/div>'
   };
-}</code></pre>
+  }</div>
 		</div>
 	</div>
 </div>

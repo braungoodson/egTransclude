@@ -22,7 +22,7 @@
 }
 
 .bs-docs-nav .navbar-toggle .icon-bar {
-	background-color:#666;
+background-color:#666;
 }
 
 .bs-docs-booticon-outline {
@@ -49,7 +49,7 @@ body {
 	background-color:#eee;
 }
 
-// EGCLOCK
+/* EGCLOCK */
 
 .clock {
 	/* width: 50%; */
@@ -71,4 +71,12 @@ body {
   }
 }
 
-// EGLCOCK
+/* EGLCOCK */
+
+/* Ace Code IDE */
+
+.ace_editor {
+  height: 200px;
+}
+
+/* Ace Code IDE */
