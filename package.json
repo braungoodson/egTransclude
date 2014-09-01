@@ -1,6 +1,6 @@
 {
   "name": "egTransclude",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "client-centric, spa-oriented, html5, css3, js, jquery, twitter bootstrap, angularjs; template; +server(express);",
   "main": "index.js",
   "scripts": {
