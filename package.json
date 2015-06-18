@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "start": "node server.js"
   },
   "author": "Braun Goodson <braungoodson@gmail.com>",
   "repository": "https://github.com/braungoodson/egTransclude",
